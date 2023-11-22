@@ -1,53 +1,136 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-transform: uppercase;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 400;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-transform: uppercase;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 400;
+}
+
+body {
+	min-height: 100vh;
+	width: 100%;
 }
 
 header {
-  background-color: #a620d6;
-  height: 152px;
-  width: 100%;
+	background-color: #a620d6;
+	max-height: 152px;
+	min-height: 15vh;
+	width: 100%;
 }
 
 nav,
 ul {
-  width: 100%;
-  height: 100%;
+	width: 100%;
+	height: 100%;
 }
 
 li {
-  width: 24.5%;
-  height: min-content;
-  margin-top: 3%;
-  display: inline-block;
-  text-align: center;
-  color: white;
-  text-transform: uppercase;
-  font-size: 2em;
+	width: 24.5%;
+	height: min-content;
+	margin-top: 3%;
+	display: inline-block;
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-size: 2em;
 }
 
 main {
-  min-height: 70vh;
+	width: 100%;
+	max-height: 75vh;
+	height: 753px;
+	border: #fff solid 1px;
 }
 
-main section {
-  display: inline-block;
-  border: solid 1px;
-  min-width: 20%;
-  min-height: 325px;
-  vertical-align: top;
+.wrapper {
+	width: 100%;
+	height: 50%;
+	min-height: min-content;
+	margin-top: 15vh;
+}
+
+main section section {
+	display: inline-block;
+	min-width: max-content;
+	width: 20%;
+	height: 100%;
+	vertical-align: top;
+	margin-left: 4%;
 }
 
 main img {
-  width: 90%;
-  border: solid;
+	width: 100%;
+	height: 70%;
+	object-fit: contain;
+	object-position: center;
 }
 
-main section * {
-  margin: 0 auto;
+h3 {
+	width: max-content;
+	margin: 0 auto;
+	font-size: 2em;
+}
+
+main button {
+	display: block;
+	height: 2em;
+	width: 40%;
+	background: #d9d9d9;
+	border: none;
+	font-size: 1.4em;
+	margin: 0 auto;
+	margin-bottom: 4%;
+}
+
+main div {
+	width: max-content;
+	margin: 0 auto;
+}
+
+section * {
+	margin-bottom: 4%;
+}
+
+footer {
+	background-color: #e8a6ff;
+	min-height: 10vh;
+	max-height: 119px;
+	border: solid #e8a6ff 1px;
+}
+
+h2 {
+	margin: 0.2%;
+	width: max-content;
+	font-family: Inter;
+	font-size: 2em;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+footer form {
+	margin: 0.2%;
+	height: 38%;
+}
+
+footer label {
+	font-size: 1.4em;
+	margin-right: 1%;
+}
+
+.dados {
+	background: #d9d9d9;
+	border: none;
+	width: 20%;
+	height: 100%;
+	margin-right: 1%;
+	vertical-align: top;
+}
+
+footer button {
+	background: #d9d9d9;
+	padding: 0.2%;
+	border: none;
+	font-size: 1.4em;
 }
